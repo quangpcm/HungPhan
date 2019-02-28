@@ -77,6 +77,16 @@
 		8A22A843221BE92300A5799E /* BasicSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8A22A865221CF24100A5799E /* 0. Basic */,
+				8A22A868221CF24200A5799E /* 1. View */,
+				8A22A86B221CF24200A5799E /* 2. Navigation */,
+				8A22A86E221CF24200A5799E /* 3. Tab Bar */,
+				8A22A86A221CF24200A5799E /* 4. Custom View */,
+				8A22A866221CF24100A5799E /* 5. Table View */,
+				8A22A86C221CF24200A5799E /* 6. Collection View */,
+				8A22A86D221CF24200A5799E /* 7. Map View */,
+				8A22A867221CF24100A5799E /* 8. API */,
+				8A22A869221CF24200A5799E /* 9. Realm */,
 				8A22A844221BE92300A5799E /* AppDelegate.swift */,
 				8A22A846221BE92300A5799E /* ViewController.swift */,
 				8A22A848221BE92300A5799E /* Main.storyboard */,
@@ -94,6 +104,76 @@
 				8A22A85B221BE92600A5799E /* Info.plist */,
 			);
 			path = BasicSwiftTests;
+			sourceTree = "<group>";
+		};
+		8A22A865221CF24100A5799E /* 0. Basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "0. Basic";
+			sourceTree = "<group>";
+		};
+		8A22A866221CF24100A5799E /* 5. Table View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5. Table View";
+			sourceTree = "<group>";
+		};
+		8A22A867221CF24100A5799E /* 8. API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8. API";
+			sourceTree = "<group>";
+		};
+		8A22A868221CF24200A5799E /* 1. View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1. View";
+			sourceTree = "<group>";
+		};
+		8A22A869221CF24200A5799E /* 9. Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9. Realm";
+			sourceTree = "<group>";
+		};
+		8A22A86A221CF24200A5799E /* 4. Custom View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4. Custom View";
+			sourceTree = "<group>";
+		};
+		8A22A86B221CF24200A5799E /* 2. Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2. Navigation";
+			sourceTree = "<group>";
+		};
+		8A22A86C221CF24200A5799E /* 6. Collection View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6. Collection View";
+			sourceTree = "<group>";
+		};
+		8A22A86D221CF24200A5799E /* 7. Map View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7. Map View";
+			sourceTree = "<group>";
+		};
+		8A22A86E221CF24200A5799E /* 3. Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3. Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
