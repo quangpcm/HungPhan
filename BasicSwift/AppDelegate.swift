@@ -15,8 +15,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window =     UIWindow(frame: UIScreen.main.bounds.size)
-                    
+        let newsNav = UINavigationController.init(rootViewController: SysTableViewController())
+        newsNav.tabBarItem = UITabBarItem.init(tabBarSystemItem: .featured, tag: 0)
+        newsNav.tabBarItem.title = "News"
+        
+        let friendsNav = UINavigationController.init(rootViewController: NewsViewController())
+        friendsNav.tabBarItem = UITabBarItem.init(tabBarSystemItem: .contacts, tag: 1)
+        friendsNav.tabBarItem.title = "Friends"
+        
+        let settingNav = UINavigationController.init(rootViewController: SettingsViewController())
+        settingNav.tabBarItem = UITabBarItem.init(tabBarSystemItem: .topRated, tag: 2)
+        settingNav.tabBarItem.title = "Setting"
+        
+        let tabVC : UITabBarController = UITabBarController.init()
+        tabVC.viewControllers = [newsNav, friendsNav, settingNav]
+        window?.rootViewController = tabVC
+        window?.makeKeyAndVisible()
         return true
     }
 
